@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vision Live Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Orbitron', sans-serif;
+            background-color: #000;
+            color: #00ccff;
+        }
+        header {
+            background-color: #111;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header img {
+            height: 60px;
+        }
+        nav a {
+            color: #00ccff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+        }
+        h1, h2, h3 {
+            color: #00eaff;
+        }
+        .team-member {
+            margin-bottom: 10px;
+        }
+        form input, form textarea {
+            display: block;
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: #111;
+            border: 1px solid #00ccff;
+            color: #00ccff;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #00ccff;
+            border: none;
+            color: black;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #888;
+        }
+        footer a {
+            color: #888;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Vision Live Agency Logo">
+        <nav>
+            <a href="#home">Start</a>
+            <a href="#team">Team</a>
+            <a href="#calendar">Kampagnen</a>
+            <a href="#contact">Kontakt</a>
+            <a href="#impressum">Impressum</a>
+            <a href="#datenschutz">Datenschutz</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Willkommen bei Vision Live Agency</h1>
+        <p>Wir vernetzen Creator, Marken und Visionen – professionell, kreativ und zukunftsorientiert.</p>
+    </section>
+
+    <section id="team">
+        <h2>Unser Team</h2>
+        <div class="team-member">🧠 pLAN_A</div>
+        <div class="team-member">🎮 Lady_pLANA</div>
+        <div class="team-member">🎤 Fannyy</div>
+        <div class="team-member">💡 BF3_Hannes (Daniel)</div>
+        <div class="team-member">🔥 FireTiger</div>
+        <div class="team-member">🛡️ MobbingMind</div>
+    </section>
+
+    <section id="calendar">
+        <h2>Kampagnenkalender</h2>
+        <p>Hier werden bald alle laufenden und kommenden Kampagnen sichtbar sein.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form>
+            <input type="text" placeholder="Dein Name" required>
+            <input type="email" placeholder="Deine E-Mail" required>
+            <textarea rows="4" placeholder="Deine Nachricht"></textarea>
+            <button type="submit">Nachricht senden</button>
+        </form>
+
+        <h3>Mitgliedsbereich – Service-Ticket erstellen</h3>
+        <form>
+            <input type="text" placeholder="Benutzername" required>
+            <input type="email" placeholder="E-Mail-Adresse" required>
+            <textarea rows="4" placeholder="Bitte beschreibe dein Anliegen"></textarea>
+            <button type="submit">Ticket absenden</button>
+        </form>
+    </section>
+
+    <section id="impressum">
+        <h2>Impressum</h2>
+        <p><strong>Verantwortlich:</strong> Max Mustermann<br>
+        Musterstraße 1<br>
+        12345 Musterstadt<br>
+        E-Mail: kontakt@visionliveagency.de<br>
+        Telefon: 01234 / 567890</p>
+        <p>Vertretungsberechtigt: Max Mustermann</p>
+        <p>Inhaltlich verantwortlich gemäß § 55 Abs. 2 RStV: Max Mustermann</p>
+    </section>
+
+    <section id="datenschutz">
+        <h2>Datenschutzerklärung</h2>
+        <p>Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Personenbezogene Daten werden auf dieser Website nur im technisch notwendigen Umfang erhoben. Die Nutzung unserer Website ist in der Regel ohne Angabe personenbezogener Daten möglich.</p>
+        <p>Wenn Sie uns per Formular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
+        <p>Sie haben jederzeit das Recht auf Auskunft über die bei uns gespeicherten personenbezogenen Daten sowie deren Berichtigung oder Löschung.</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Vision Live Agency – Alle Rechte vorbehalten. |
+        <a href="#impressum">Impressum</a> |
+        <a href="#datenschutz">Datenschutz</a>
+    </footer>
+</body>
+</html>
